@@ -2,4 +2,4 @@
 
 Add to Rogan Udemy HTML & CSS once complete
 
-Updated 11/28/2020
+Updated 11/28/2020.
