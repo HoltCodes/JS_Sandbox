@@ -280,12 +280,12 @@
 // document.body.innerHTML = html;
 
 // Create some arrays
-const numbers = [43, 23, 34, 4, 1 ,64];
-const numbers2 = new Array(3, 434, 23, 235, 55);
-const fruit = ['Apple', 'Banna', 'Orange', 'Pear'];
-const mixed = [22, 'Hello', true, undefined, null, {a:1, b:1}, new Date()];
+// const numbers = [43, 23, 34, 4, 1 ,64];
+// const numbers2 = new Array(3, 434, 23, 235, 55);
+// const fruit = ['Apple', 'Banna', 'Orange', 'Pear'];
+// const mixed = [22, 'Hello', true, undefined, null, {a:1, b:1}, new Date()];
 
-let val;
+// let val;
 
 // // Get array length
 // val = numbers.length;
@@ -340,13 +340,40 @@ let val;
 
 
 // find
-function over50(num){
-    return num > 50;
+// function over50(num){
+//     return num > 50;
+// }
+
+// val = numbers.find(over50);
+
+
+
+// console.log(numbers);
+// console.log(val);
+
+
+const person =  {
+    firstName: 'Steve',
+    lastName: 'Smith',
+    age: 30,
+    email: 'steve@aol.com',
+    hobbies: ['music', 'sports'],
+    address: {
+        city: 'Tampa',
+        state: 'Florida'
+    },
+    getBirthYear: function(){
+        return 1992;
+    }
 }
 
-val = numbers.find(over50);
+let val;
 
-
-
-console.log(numbers);
+val = person;
+// Get specific value 
+val = person.firstName;
+val = person['lastName'];
+val = person.age;
+val = person.hobbies[1];
+val = person.address;
 console.log(val);
