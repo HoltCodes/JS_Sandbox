@@ -352,28 +352,80 @@
 // console.log(val);
 
 
-const person =  {
-    firstName: 'Steve',
-    lastName: 'Smith',
-    age: 30,
-    email: 'steve@aol.com',
-    hobbies: ['music', 'sports'],
-    address: {
-        city: 'Tampa',
-        state: 'Florida'
-    },
-    getBirthYear: function(){
-        return 1992;
-    }
+// const person =  {
+//     firstName: 'Steve',
+//     lastName: 'Smith',
+//     age: 28,
+//     email: 'steve@aol.com',
+//     hobbies: ['music', 'sports'],
+//     address: {
+//         city: 'Tampa',
+//         state: 'Florida'
+//     },
+//     getBirthYear: function(){
+//         return 2020 - this.age;
+//     }
+// }
+
+// let val;
+
+// val = person;
+// // Get specific value 
+// val = person.firstName;
+// val = person['lastName'];
+// val = person.age;
+// val = person.hobbies[1];
+// val = person.address.state;
+// val = person.address;['city'];
+// val = person.getBirthYear();
+
+// console.log(val);
+
+// const people = [
+//     {name: 'Rogan', age: 28},
+//     {name: 'Kaitlyn', age: 24},
+//     {name: 'Ramp', age: 9}
+
+// ];
+
+// for(let i = 0; i < people.length; i++){
+//     console.log(people[i].name);
+// }
+
+// let val;
+
+// const today = new Date();
+// let birthday = new Date('6/6/92'); 
+// birthday = new Date('6-6-1992');
+
+// val = today.getMonth();
+// val = today.getDate();
+// val = today.getDay();
+// val = today.getFullYear();
+// val = today.getHours();
+// val = today.getMinutes();
+// val = today.getSeconds();
+
+// val = today.getTime();
+
+// birthday.setMonth(2);
+// birthday.setDate(12);
+// birthday.setFullYear(1995);
+// birthday.setHours(3);
+// birthday.setMinutes(30);
+// birthday.setSeconds(25);
+
+// console.log(birthday);
+
+// if(something){
+//     do something
+// } else {
+//     do something else
+// }
+
+const id = 100;
+
+// EQUAL TO
+if (id == 101){
+    console.log('CORRECT')
 }
-
-let val;
-
-val = person;
-// Get specific value 
-val = person.firstName;
-val = person['lastName'];
-val = person.age;
-val = person.hobbies[1];
-val = person.address;
-console.log(val);
