@@ -423,7 +423,7 @@
 //     do something else
 // }
 
-  const id = 100;
+//   const id = 100;
 
 // // EQUAL TO
 // if (id == 100){
@@ -467,7 +467,7 @@
 //  }
 
 // IF ELSE
-const color = 'yellow';
+// const color = 'yellow';
 
 // if(color === 'red'){
 //     console.log('Color is red');
@@ -478,30 +478,100 @@ const color = 'yellow';
 //  }
 
 
-// Logical operators 
-const name = 'Rogan';
-const age = 25;
+// // Logical operators 
+// const name = 'Rogan';
+// const age = 25;
 
-if (age > 0 && age < 12){
-    console.log(`${name} is a child`);
-} else if (age >=13 && age <= 19){
-    console.log (`${name} is a teenager`);
-} else {
-    console.log (`${name} is an adult`);
+// if (age > 0 && age < 12){
+//     console.log(`${name} is a child`);
+// } else if (age >=13 && age <= 19){
+//     console.log (`${name} is a teenager`);
+// } else {
+//     console.log (`${name} is an adult`);
+// }
+
+// // or ||
+// if(age < 16 || age > 65) {
+//     console.log(`${name} can't run in the race`);
+// } else {
+//     console.log(`${name} is registered for the race`);
+// }
+
+// // Ternary operator
+// console.log(id === 100 ? 'CORRECT' : 'INCORRECT');
+
+// // WITHOUT BRACES (Dont recommened!)
+// if (id ===100)
+// console.log('CORRECT');
+// else
+// console.log(INCORRECT);
+
+
+// const color = 'yellow';
+
+// switch(color){
+//     case 'red':
+//         console.log('Color is red');
+//         break;
+//         case 'blue':
+//             console.log('Color is blue');
+//             break;
+//             default:
+//                 console.log('Color is not red or blue');
+//                 break;
+// }
+// let day;
+
+// switch(new Date().getDay()){
+//     case 0:
+//         day = 'Sunday';
+//         break;
+//     case 1:
+//         day = 'Monday';
+//         break;
+//     case 2:
+//         day = 'Tuesday';
+//         break;
+//     case 3:
+//         day = 'Wednesday';
+//         break;
+//     case 4:
+//         day = 'Thursday';
+//         break;
+//     case 5:
+//         day = 'Friday';
+//         break;
+//     case 6:
+//         day = 'Saturday';
+//         break;
+// }
+
+// console.log(`Today is ${day}`);
+
+// FUNCTION DECLARATIONS
+
+function greet(firstName = ' John', lastName = 'Doe'){
+    // if ( typeof firstName === 'undefined'){firstName = ' John'}
+    // if ( typeof lastName === 'undefined'){lastName = 'Doe'} 
+    // console.log('Hello');
+    return 'Hello' + firstName + ' ' +lastName;
 }
 
-// or ||
-if(age < 16 || age > 65) {
-    console.log(`${name} can't run in the race`);
-} else {
-    console.log(`${name} is registered for the race`);
-}
+// console.log(greet()); 
 
-// Ternary operator
-console.log(id === 100 ? 'CORRECT' : 'INCORRECT');
+const square = function(x = 3){
+    return x*x;
+};
 
-// WITHOUT BRACES (Dont recommened!)
-if (id ===100)
-console.log('CORRECT');
-else
-console.log(INCORRECT);
+// console.log(square());
+
+// IMMIDIATLEY INVOKABLE FUNCTION EXPRESSIONS -IFEs
+
+// (function(){
+//     console.log('IFEs Ran..');
+// })();
+
+// (function(name){
+//     console.log('Hello' + name);
+// })(' Rogan');
+
