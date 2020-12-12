@@ -550,18 +550,18 @@
 
 // FUNCTION DECLARATIONS
 
-function greet(firstName = ' John', lastName = 'Doe'){
-    // if ( typeof firstName === 'undefined'){firstName = ' John'}
-    // if ( typeof lastName === 'undefined'){lastName = 'Doe'} 
-    // console.log('Hello');
-    return 'Hello' + firstName + ' ' +lastName;
-}
+// function greet(firstName = ' John', lastName = 'Doe'){
+//     // if ( typeof firstName === 'undefined'){firstName = ' John'}
+//     // if ( typeof lastName === 'undefined'){lastName = 'Doe'} 
+//     // console.log('Hello');
+//     return 'Hello' + firstName + ' ' +lastName;
+// }
 
-// console.log(greet()); 
+// // console.log(greet()); 
 
-const square = function(x = 3){
-    return x*x;
-};
+// const square = function(x = 3){
+//     return x*x;
+// };
 
 // console.log(square());
 
@@ -574,4 +574,89 @@ const square = function(x = 3){
 // (function(name){
 //     console.log('Hello' + name);
 // })(' Rogan');
+
+// Property Methods
+
+
+// const todo = {
+//     add: function(){
+//         console.log('Add todo..');
+//     },
+//     edit: function(id){
+//         console.log(`Edit todo ${id}`);
+//     }
+// }
+
+// todo.delete = function(){
+
+//     console.log('Delete todo...');
+// }
+
+// todo.add();
+// todo.edit(22);
+// todo.delete();
+
+
+// FOR LOOP
+
+// for (let i = 0; i < 10; i++){
+//     if(i === 2){
+//         console.log('2 in my favorite number');
+//         continue;
+//     }
+    
+//     if (i === 5){
+//         console.log('Stop the loop');
+//         break;
+//     }
+
+//     console.log('Number '+ i);
+// }
+
+// WHILE LOOP
+
+// let i = 0;
+
+// while(i < 10){
+//     console.log('number ' + i );
+//     i++;
+// }
+
+// DO WHILE
+
+// let i = 100
+
+// do {
+//     console.log('number ' + i);
+//     i++;
+// }
+
+// while(i < 10);
+
+
+// LOOP THROUGH ARRAY
+// const cars = ['Ford', 'Chevy', 'Honda', 'Toyota'];
+
+// for(let i = 0; i < cars.length; i++){
+//     console.log(cars[i]);
+// }
+
+// cars.forEach(function(car){
+//     console.log(car);
+// });
+
+// MAP
+// const user = [
+//     {id: 1, name:'John'},
+//     {id: 2, name:'Sara'},
+//     {id: 3, name:'Karen'}
+// ];
+
+// const id = user.map(function(user){
+//     return user.id;
+// });
+
+// console.log(id);
+
+
 
