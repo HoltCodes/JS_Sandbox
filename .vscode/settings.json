@@ -1,0 +1,5 @@
+{
+    "vim.startofline": false,
+    "terminal.integrated.cursorWidth": 0,
+    "editor.formatOnPaste": true
+}
